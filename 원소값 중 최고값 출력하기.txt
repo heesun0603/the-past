@@ -1,0 +1,14 @@
+# 3개의 원소값 중 최고값을 구하는 코드 (리스트 사용)
+
+# 전달된 리스트 (예시)
+numbers = [10, 25, 15]  # 리스트를 예시로 전달
+
+# 첫 번째 원소를 최고값으로 설정
+highest = numbers[0]
+
+# 나머지 원소들과 비교하여 최고값을 구함
+for num in numbers:
+    if num > highest:
+        highest = num
+
+print(f"리스트의 3개의 값 중 최고값은 {highest}입니다.")
